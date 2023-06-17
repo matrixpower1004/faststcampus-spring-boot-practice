@@ -26,11 +26,4 @@ public class FaststcampusSpringBootPracticeApplication {
         SpringApplication.run(FaststcampusSpringBootPracticeApplication.class, args);
     } // end of main
 
-    @EventListener(ApplicationReadyEvent.class)
-    public void init () {
-        studentService.printStudent("jack");
-        studentService.printStudent("jack");
-        studentService.printStudent("jack");
-    }
-
 } // end of class
